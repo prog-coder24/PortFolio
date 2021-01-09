@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+body {
+  background-color: #ff0060 !important;
+  font-family: "Assistant", sans-serif !important;
+  color: #222 !important;
+}
+
+h1,
+h3 {
+  font-family: "Oswald", sans-serif !important;
+}
+
+h3 {
+  font-size: 30px !important;
+}
+
+.btn {
+  background-color: #ff0060 !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 30px !important;
+}
+
+.form-control {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #f8f8f8 !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: #222 !important;
+}

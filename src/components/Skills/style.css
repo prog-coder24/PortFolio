@@ -1,0 +1,12 @@
+.skills {
+  background-color: #fff;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+.skills > h3 {
+  font-size: 35px;
+  font-weight: bold;
+}
+.skills > p {
+  font-size: 20px;
+}

@@ -1,0 +1,38 @@
+.projects-container {
+  background-color: #fff;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+.projects-container > h3 {
+  font-size: 35px;
+  font-weight: bold;
+}
+.project-title {
+  text-decoration: none !important;
+  color: #000;
+  font-size: 20px;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 80px;
+}
+
+.card {
+  border: none !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: #000;
+}
+
+.card-title {
+  font-weight: bold !important;
+  /* letter-spacing: 1px; */
+}
+
+.card-title > a:hover {
+  color: #ff0060 !important;
+  transition: 0.3s ease-in;
+}

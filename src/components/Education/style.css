@@ -1,0 +1,9 @@
+.education {
+  background-color: #fff;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+.education > h3 {
+  font-size: 35px;
+  font-weight: bold;
+}
