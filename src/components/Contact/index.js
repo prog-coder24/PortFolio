@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <h3 className="mb-5">
-        <PermContactCalendarIcon style={{ fontSize: 35, marginBottom: 3 }} />{" "}
+        <PermContactCalendarIcon style={{ fontSize: 35, marginBottom: 8 }} />{" "}
         Contact
       </h3>
       <Form.Group controlId="formBasicEmail">

@@ -6,14 +6,21 @@ const About = () => {
   return (
     <div className="about">
       <h3 className="mb-5">
-        <AccountCircleIcon style={{ fontSize: 35, marginBottom: 3 }} /> About Me
+        <AccountCircleIcon style={{ fontSize: 35, marginBottom: 8 }} /> About Me
       </h3>
       <p>
-        A passionate individual keen towards learning new and modern
-        technologies with the ability to develop and deploy applications.
+        A Creative and Strategic thinker motivated to build a career in Sotfware
+        Development. I am always keen towards Learning New and Modern
+        Technologies. Passionate about Implementing and Launching new Projects.
+        Looking to start a career as an entry-level Software Developer with a
+        reputed firm driven by Technology.
       </p>
     </div>
   );
 };
 
 export default About;
+
+// A creative and strategic thinker motivated to build a career in Public Relations.
+// Passionate about implementing and launching new projects
+// Looking to start the career as an entry-level software engineer with a reputed firm driven by technology.

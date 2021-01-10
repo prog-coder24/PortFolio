@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div className="skills">
       <h3 className="mb-5">
-        <FormatListBulletedIcon style={{ fontSize: 35, marginBottom: 3 }} />{" "}
+        <FormatListBulletedIcon style={{ fontSize: 35, marginBottom: 8 }} />{" "}
         Skills
       </h3>
       <p>

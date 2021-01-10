@@ -1,15 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Assistant&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Assistant&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@400;500&display=swap");
 
 body {
   background-color: #ff0060 !important;
-  font-family: "Assistant", sans-serif !important;
+  /* font-family: "Assistant", sans-serif !important; */
+  /* font-family: "Tajawal", sans-serif !important; */
+  /* font-family: "Lato", sans-serif !important; */
+  font-family: "Spectral", serif !important;
   color: #222 !important;
-}
-
-h1,
-h3 {
-  font-family: "Oswald", sans-serif !important;
 }
 
 h3 {

@@ -10,7 +10,7 @@ const SocialNetwork = () => {
   return (
     <div className="social">
       <h3 className="mb-5">
-        <LanguageIcon style={{ fontSize: 35, marginBottom: 4 }} /> Social
+        <LanguageIcon style={{ fontSize: 35, marginBottom: 8 }} /> Social
         Network
       </h3>
       <span>
@@ -32,10 +32,10 @@ const SocialNetwork = () => {
         vaishnavisawant1224@gmail.com
       </span>
       <span>
-        <a href="#">
+        <a href="https://twitter.com/vaishnaviiswnt">
           <TwitterIcon className="s-icon" />
         </a>
-        @sawantv
+        @vaishnaviiswnt
       </span>
     </div>
   );
