@@ -8,3 +8,12 @@
   margin: 30px 20px;
   color: #fff;
 }
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 35px !important;
+  }
+  .icon {
+    font-size: 17px !important;
+    margin: 30px 10px;
+  }
+}

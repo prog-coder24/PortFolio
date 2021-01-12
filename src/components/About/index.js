@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="about">
       <h3 className="mb-5">
-        <AccountCircleIcon style={{ fontSize: 35, marginBottom: 8 }} /> About Me
+        <AccountCircleIcon className="icon-each" /> About Me
       </h3>
       <p>
         A Creative and Strategic thinker motivated to build a career in Sotfware

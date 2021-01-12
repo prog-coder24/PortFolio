@@ -7,3 +7,22 @@
   font-size: 35px;
   font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+  .contact-content {
+    font-size: 20px;
+  }
+  .contact {
+    padding: 35px 20px;
+  }
+  .contact > h3 {
+    font-size: 22px !important;
+    margin-bottom: 40px !important;
+  }
+  .contact-button {
+    font-size: 13px !important;
+  }
+  .contact-holder {
+    font-size: 13px !important;
+  }
+}

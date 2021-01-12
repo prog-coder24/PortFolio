@@ -1,0 +1,11 @@
+.icon-each {
+  font-size: 33px !important;
+  margin-bottom: 9px;
+}
+
+@media screen and (max-width: 768px) {
+  .icon-each {
+    font-size: 22px !important;
+    margin-bottom: 5px;
+  }
+}

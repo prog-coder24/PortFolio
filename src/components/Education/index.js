@@ -6,8 +6,7 @@ const Education = () => {
   return (
     <div className="education">
       <h3 className="mb-5">
-        <SchoolIcon style={{ fontSize: 35, marginRight: 5, marginBottom: 8 }} />{" "}
-        Education
+        <SchoolIcon className="icon-each" /> Education
       </h3>
       <p className="m-0">2018-current</p>
       <p style={{ fontWeight: "bold", fontSize: 20 }}>

@@ -7,19 +7,35 @@ const Contact = () => {
   return (
     <div className="contact">
       <h3 className="mb-5">
-        <PermContactCalendarIcon style={{ fontSize: 35, marginBottom: 8 }} />{" "}
-        Contact
+        <PermContactCalendarIcon className="icon-each" /> Contact
       </h3>
-      <Form.Group controlId="formBasicEmail">
-        <Form.Control type="email" placeholder="Enter email" />
-      </Form.Group>
-      <Form.Group controlId="formBasicEmail">
-        <Form.Control type="email" placeholder="Subject" />
-      </Form.Group>
-      <Form.Group controlId="exampleForm.ControlTextarea1">
-        <Form.Control as="textarea" rows={7} placeholder="Enter your message" />
-      </Form.Group>
-      <Button variant="primary">Send message</Button>
+      <div className="contact-content">
+        <Form.Group controlId="formBasicEmail">
+          <Form.Control
+            type="email"
+            placeholder="Enter email"
+            className="contact-holder"
+          />
+        </Form.Group>
+        <Form.Group controlId="formBasicEmail">
+          <Form.Control
+            type="email"
+            placeholder="Subject"
+            className="contact-holder"
+          />
+        </Form.Group>
+        <Form.Group controlId="exampleForm.ControlTextarea1">
+          <Form.Control
+            as="textarea"
+            rows={7}
+            placeholder="Enter your message"
+            className="contact-holder"
+          />
+        </Form.Group>
+        <Button variant="primary" className="contact-button">
+          Send message
+        </Button>
+      </div>
     </div>
   );
 };

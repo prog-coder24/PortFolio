@@ -10,3 +10,15 @@
 .skills > p {
   font-size: 20px;
 }
+@media screen and (max-width: 768px) {
+  .skills > p {
+    font-size: 15px;
+  }
+  .skills {
+    padding: 35px 20px;
+  }
+  .skills > h3 {
+    font-size: 22px !important;
+    margin-bottom: 40px !important;
+  }
+}

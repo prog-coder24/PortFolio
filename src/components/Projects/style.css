@@ -15,7 +15,7 @@
 .card-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 80px;
+  grid-column-gap: 70px;
 }
 
 .card {
@@ -35,4 +35,28 @@ a {
 .card-title > a:hover {
   color: #ff0060 !important;
   transition: 0.3s ease-in;
+}
+
+@media screen and (max-width: 768px) {
+  .card-grid {
+    display: block;
+  }
+  .image {
+    width: 100% !important;
+    height: auto;
+  }
+  .card-title {
+    font-size: 14px !important;
+    text-align: left !important;
+  }
+  .projects-container > h3 {
+    font-size: 22px !important;
+    margin-bottom: 40px !important;
+  }
+  .projects-container {
+    padding: 30px 20px;
+  }
+  .card-body {
+    padding: 6px !important;
+  }
 }
