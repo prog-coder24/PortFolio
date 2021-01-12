@@ -12,7 +12,7 @@ const Projectcard = () => {
       />
       <Card.Body className="card-body">
         <Card.Title className="c-title">
-          <a href="https://v24thona.pynywhere.com">
+          <a href="https://v24.pythonanywhere.com/">
             Academia Factual Information Management System
           </a>
         </Card.Title>
