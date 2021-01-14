@@ -14,7 +14,7 @@ const SocialNetwork = () => {
           return (
             <>
               <span>
-                <a href="{sl.link}">
+                <a href={sl.link}>
                   <sl.icon className="s-icon" />
                 </a>
                 {sl.username}
