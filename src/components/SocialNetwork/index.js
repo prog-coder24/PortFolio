@@ -1,42 +1,27 @@
 import React from "react";
-import "./style.css";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import EmailIcon from "@material-ui/icons/Email";
-import TwitterIcon from "@material-ui/icons/Twitter";
 import LanguageIcon from "@material-ui/icons/Language";
+import { socialLinks } from "../../Content";
+import "./style.css";
 
 const SocialNetwork = () => {
   return (
-    <div className="social">
+    <div className="wrapper social" data-aos="fade-up" data-aos-duration="1000">
       <h3 className="mb-5">
         <LanguageIcon className="icon-social" /> Social Network
       </h3>
       <div className="d-flex flex-wrap social-links ">
-        <span>
-          <a href="https://www.linkedin.com/in/vaishnavi-sawant-276085203/">
-            <LinkedInIcon className="s-icon" />
-          </a>
-          Vaishnavi Sawant
-        </span>
-        <span>
-          <a href="https://github.com/prog-coder24?tab=repositories">
-            <GitHubIcon className="s-icon" />
-          </a>
-          prog-coder24
-        </span>
-        <span>
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vaishnavisawant1224@gmail.com">
-            <EmailIcon className="s-icon" />
-          </a>
-          vaishnavisawant1224@gmail.com
-        </span>
-        <span>
-          <a href="https://twitter.com/vaishnaviiswnt">
-            <TwitterIcon className="s-icon" />
-          </a>
-          @vaishnaviiswnt
-        </span>
+        {socialLinks.map((sl) => {
+          return (
+            <>
+              <span>
+                <a href="{sl.link}">
+                  <sl.icon className="s-icon" />
+                </a>
+                {sl.username}
+              </span>
+            </>
+          );
+        })}
       </div>
     </div>
   );

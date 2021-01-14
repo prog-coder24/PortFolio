@@ -35,8 +35,17 @@ a {
   text-decoration: none !important;
   color: #222 !important;
 }
+.wrapper {
+  background-color: #fff;
+  padding: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
 @media screen and (max-width: 768px) {
   .container {
     width: 100% !important ;
+  }
+  .wrapper {
+    padding: 35px 20px;
   }
 }

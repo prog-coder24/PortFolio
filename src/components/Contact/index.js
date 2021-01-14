@@ -5,7 +5,11 @@ import PermContactCalendarIcon from "@material-ui/icons/PermContactCalendar";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div
+      className="wrapper contact"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
       <h3 className="mb-5">
         <PermContactCalendarIcon className="icon-each" /> Contact
       </h3>

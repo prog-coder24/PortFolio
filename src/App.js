@@ -10,15 +10,17 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <Container className="App">
-      <Header />
-      <About />
-      <Skills />
-      <Projects />
-      <Education />
-      <SocialNetwork />
-      <Contact />
-    </Container>
+    <div className="overlay">
+      <Container className="App">
+        <Header />
+        <About />
+        <Skills />
+        <Projects />
+        <Education />
+        <SocialNetwork />
+        <Contact />
+      </Container>
+    </div>
   );
 }
 
