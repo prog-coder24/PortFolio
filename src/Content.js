@@ -19,7 +19,7 @@ const projects = [
     image:
       "https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     title: "Academia Factual Information Management System",
-    link: "http://v24.pythonanywhere.com/",
+    link: "http://magazine.pythonanywhere.com/",
   },
 ];
 
@@ -49,7 +49,7 @@ const socialLinks = [
     link:
       "https://mail.google.com/mail/?view=cm&fs=1&to=vaishnavisawant1224@gmail.com",
     icon: EmailIcon,
-    username: "vaishnavisawant1224@gmail.com",
+    username: "vaishnavisawant7869@gmail.com",
   },
   {
     label: "Twitter",
