@@ -1,6 +1,6 @@
 ## :globe_with_meridians: PortFolio
 
-This Portfolio is created using React JS.
+This Portfolio is build using React JS.
 
 # Getting Started with Create React App
 
