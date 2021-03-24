@@ -17,6 +17,9 @@
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 70px;
 }
+.image {
+  height: 340px;
+}
 
 .card {
   border: none !important;
@@ -59,5 +62,8 @@ a {
   }
   .card-body {
     padding: 6px !important;
+  }
+  .card {
+    margin-bottom: 20px;
   }
 }

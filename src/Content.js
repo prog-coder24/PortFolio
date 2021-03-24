@@ -21,6 +21,17 @@ const projects = [
     title: "Academia Factual Information Management System",
     link: "http://magazine.pythonanywhere.com/",
   },
+  {
+    image:
+      "https://images.pexels.com/photos/5849559/pexels-photo-5849559.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    title: "Basic Bank Transaction System",
+    link: "https://bank-transaction-system.herokuapp.com/",
+  },
+  {
+    image: "./images/train1.jpg",
+    title: "E-Railway Concession Portal",
+    link: "https://e-railway-concession-portal.herokuapp.com/",
+  },
 ];
 
 const skills = [
